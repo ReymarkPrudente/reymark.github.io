@@ -1,0 +1,248 @@
+:root {
+    --bg1: #2d2a2d;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #f2b03b;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+}
+
+a {
+    text-decoration: none;
+}
+
+#about {
+    background-color: var(--bg1);
+}
+
+#about {
+    color: rgb(255, 174, 0);
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(133, 83%, 30%, 0.856), rgba(151, 29, 55, 0.315)),
+        url(https://img.freepik.com/free-photo/volumetric-musical-background-with-treble-clef-notes-generative-ai_169016-29576.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712707200&semt=ais);
+    background-size: cover;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, hsla(0, 2%, 17%, 0.829), rgba(44, 42, 42, 0.884));
+
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+}
+
+.navbar #navbarNav .nav-link.active {
+    color: var(--brand) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand) !important;
+}
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: #212529;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-width: 1px;
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: 0.375rem;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    --bs-btn-disabled-opacity: 0.65;
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    color: #ffc107;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#services {
+    background-color: var(--white);
+}
+
+.icon-box-img {
+    width: 40%;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+    background-color: var(--bg1);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #510df0;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-photo/volumetric-musical-background-with-treble-clef-notes-generative-ai_169016-29576.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712707200&semt=ais);
+    background-size: cover;
+    min-height: 70vh;
+    
+}
+
+#reviews {
+    background-color: #a0753600;
+}
+
+.testimonials {
+    padding: 30px;
+    background-color: var(--bg1);
+    border-radius: 1px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    text-decoration: none;
+    color: var(--brand);
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+margin-bottom: 20px; /* add margin bottom for spacing */
+border-radius: 0 !important;
+}
+.accordion-button {
+    background-color: rgba(34, 165, 165, 0.089);
+    border: none;
+    border-bottom: 1px solid #f2b03b;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(23, 24, 24);
+    cursor: pointer;
+    transition: background-color 0.3s, color o.3s;
+
+}
+.accordion-body {
+    border-left: 3px solid var(--brand);
+    padding: 10px a5px;
+    margin-left: 0;
+    background-color: rgba(25, 49, 41, 0.082);
+}
+
+.faq-answer p {
+margin-bottom: 0;
+}
+
+.accordion-button:focus {
+    color: var(--bg1);
+
+}
+
+/* hover effect for FAQ question*/
+.accordio-button:hover {background-color: var(--brand); /* change background color of hover */
+    color: var(--bg1); /*change text for hover */
+}
+/* Adjust accordion icon*/
+.accordion-button::after {
+    font-family: "font-awesom 5 free";
+    content: ""; /*pluss icon*/
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+
+}
+
+.accordion-button [area-expanded="true"]::after {
+
+}
+
+/*footer*/
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #414750;
+
+    
+}
+
+#footer ul.list-unstyled li a{
+    color: #e3ecee;
+
+}
+
+#footer ul.list-unstyled li:hover a{
+    color: var(--brand);
+
+}
+
+#reviews h2, #services h2 {
+    color: var(--bg1);
+
+}
+
+.btn-outline-light {
+    border-color: #f2b03b;
+    color: #f2B03B;
+}
+
+
+
